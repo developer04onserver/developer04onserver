@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">developer04 — Software Developer</title><desc id="desc">Minimal animated developer identity banner with terminal typography and flowing network lines.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360"><stop stop-color="#080B16"/><stop offset="1" stop-color="#111D35"/></linearGradient>
+<linearGradient id="accent" x1="80" y1="60" x2="1100" y2="300"><stop stop-color="#54D6FF"/><stop offset=".5" stop-color="#8B7CFF"/><stop offset="1" stop-color="#55E0B5"/></linearGradient>
+<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" stroke="#9CB2D2" stroke-opacity=".10"/></pattern>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="360" rx="22" fill="url(#bg)"/><rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+<g stroke="url(#accent)" stroke-width="2" fill="none" opacity=".9">
+<path d="M690 80H820Q850 80 850 110V145H1060" stroke-dasharray="7 10"><animate attributeName="stroke-dashoffset" values="0;-68" dur="4s" repeatCount="indefinite"/></path>
+<path d="M700 180H790Q820 180 820 210V250H1110" stroke-dasharray="7 10"><animate attributeName="stroke-dashoffset" values="0;68" dur="5s" repeatCount="indefinite"/></path>
+<path d="M690 275H760Q790 275 790 245V220H940" stroke-dasharray="7 10"><animate attributeName="stroke-dashoffset" values="0;-68" dur="3.5s" repeatCount="indefinite"/></path>
+</g>
+<g fill="#0D1930" stroke="url(#accent)" stroke-width="2"><rect x="900" y="55" width="170" height="58" rx="12"/><rect x="1010" y="155" width="140" height="58" rx="12"/><rect x="900" y="260" width="180" height="58" rx="12"/></g>
+<g fill="#DCEBFF" font-family="monospace" font-size="13" text-anchor="middle"><text x="985" y="90">CLOUD / EDGE</text><text x="1080" y="190">API SYSTEMS</text><text x="990" y="295">AUTOMATION</text></g>
+<g transform="translate(88 75)">
+<text x="0" y="0" fill="#72DFFF" font-family="monospace" font-size="14" letter-spacing="4">[ DEVELOPER PROFILE / 04 ]</text>
+<text x="0" y="92" fill="#F4F7FF" font-family="Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="-4">developer04</text>
+<path d="M0 120H510" stroke="url(#accent)" stroke-width="3" stroke-dasharray="510 510"><animate attributeName="stroke-dashoffset" values="510;0;510" dur="7s" repeatCount="indefinite"/></path>
+<text x="0" y="165" fill="#B4C4DE" font-family="monospace" font-size="18">SOFTWARE / CLOUD / AUTOMATION</text>
+<text x="0" y="220" fill="#7186A8" font-family="monospace" font-size="14">Building useful things, one commit at a time.</text>
+</g>
+<g filter="url(#glow)" fill="#58D8FF"><circle cx="850" cy="110" r="5"><animate attributeName="r" values="3;7;3" dur="2s" repeatCount="indefinite"/></circle><circle cx="820" cy="210" r="5"><animate attributeName="r" values="3;7;3" dur="2.3s" repeatCount="indefinite"/></circle><circle cx="790" cy="245" r="5"><animate attributeName="r" values="3;7;3" dur="1.8s" repeatCount="indefinite"/></circle></g>
+</svg>
